@@ -12,14 +12,19 @@
   background: gray;
   box-sizing: border-box;
   padding: 10px;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   cursor: pointer;
   border-radius: 6px;
+  gap: 5px;
 }
 
-.dropdown__value:after {
-  content: '\21E9';
-  margin-left: 5px;
+.dropdown__value-text {
+  white-space: nowrap;
+}
+
+.dropdown__arrow {
+  font-size: 14px;
 }
 
 .dropdown__list {
